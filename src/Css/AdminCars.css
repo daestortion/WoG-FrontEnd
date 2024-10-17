@@ -1,0 +1,200 @@
+/* Overall Page */
+.admin-cars-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Topbar */
+.admin-dashboard-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-logo {
+  height: 50px;
+  width: auto;
+}
+
+.admin-dashboard-logout {
+  padding: 10px 20px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.admin-dashboard-wrapper {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 80px); /* Adjust height to take the remaining space after top bar */
+}
+
+.admin-dashboard-sidebar {
+  background-color: #840000;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.admin-dashboard-menu-item {
+  padding: 15px;
+  background-color: #840000;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.admin-dashboard-menu-item:hover {
+  background-color: #e32128;
+}
+
+/* Main Content */
+.admin-dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.content-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Search and Filter */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 8px 12px;
+  background-color: #00c04b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.user-filter {
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Cars Table */
+.cars-table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cars-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cars-table th, .cars-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.cars-table th {
+  background-color: #e32128;
+  color: white;
+}
+
+.cars-table td {
+  text-align: center;
+}
+
+/* Button Approve and Delete */
+.button-approve, .button-delete {
+  padding: 8px 12px;
+  background-color: #00c04b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button-delete {
+  background-color: #ff4b4b;
+}
+
+.button-approve:hover {
+  background-color: #009d40;
+}
+
+.button-delete:hover {
+  background-color: #ff0000;
+}
+
+/* Image Modal */
+.image-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-modal img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.close-button {
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-show-image {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

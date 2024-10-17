@@ -1,0 +1,31 @@
+/* Dropdown.css */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute; /* Position absolute to appear on top without affecting layout */
+  top: 100%; /* Position the dropdown below the trigger */
+  left: -60px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000; /* Ensure it appears above other elements */
+  cursor: pointer;
+  border: 2px solid #ccc; /* Visualize the dropdown */
+  padding: 0;
+  text-align: center;
+}
+
+.dropdown-content li {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.dropdown-content li:hover {
+  background-color: #f1f1f1;
+}

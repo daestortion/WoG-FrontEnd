@@ -1,0 +1,173 @@
+/* Overall Page */
+.admin-order-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Topbar */
+.admin-dashboard-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-logo {
+  height: 50px;
+  width: auto;
+}
+
+.admin-dashboard-logout {
+  padding: 10px 20px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.admin-dashboard-wrapper {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 80px); /* Adjust height to take the remaining space after top bar */
+}
+
+.admin-dashboard-sidebar {
+  background-color: #840000;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.admin-dashboard-menu-item {
+  padding: 15px;
+  background-color: #840000;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.admin-dashboard-menu-item:hover {
+  background-color: #e32128;
+}
+
+/* Main Content */
+.admin-dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.content-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Filter Section */
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.search-bar, .submit-button, .user-filter {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* Orders Table */
+.order-table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.order-table th {
+  background-color: #e32128;
+  color: white;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Action Buttons */
+.button-approve, .button-deny, .button-show-image, .button-terminate {
+  padding: 8px 12px;
+  background-color: #e32128;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button-approve {
+  background-color: #00c04b;
+}
+
+.button-deny, .button-terminate {
+  background-color: #ff4b4b;
+}
+
+.button-approve:hover {
+  background-color: #009d40;
+}
+
+.button-deny:hover {
+  background-color: #ff0000;
+}
+
+.button-show-image:hover {
+  background-color: #007bff;
+}
+
+/* Image Popup */
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popup-content img {
+  max-width: 100%;
+  max-height: 80vh;
+}

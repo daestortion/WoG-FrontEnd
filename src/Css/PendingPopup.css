@@ -1,0 +1,70 @@
+.pending-rent {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    background-color: rgba(0, 0, 0, 0.5);  
+    z-index: 1050; 
+  }
+  
+  .pending-rent .overlap-wrapper343 {
+    height: 410px;
+    width: 907px;
+  }
+  
+  .pending-rent .overlap1212 {
+    background-color: #d7d1d1;
+    border-radius: 40px;
+    height: 410px;
+    position: relative;
+  }
+  
+  .pending-rent .text-wrapperr3 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    left: 142px;
+    letter-spacing: 0.62px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 623px;
+  }
+  
+  .pending-rent .group121a {
+    height: 71px;
+    left: 376px;
+    position: absolute;
+    top: 296px;
+    width: 170px;
+  }
+  
+  .pending-rent .overlap-groupdfas {
+    background-color: #e80029;
+    border-radius: 35px;
+    height: 71px;
+    position: relative;
+    width: 168px;
+    border: none;
+  }
+  
+  .pending-rent .div1aa {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 92px;
+  }
+  

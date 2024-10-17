@@ -1,0 +1,195 @@
+body {
+  overflow: hidden; /* Prevents unnecessary scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.landing-page{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-top: 112px; /* Offset for the fixed header height */
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.landing-page .overlap-wrapper31 {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  gap: 50px;
+  position: relative;
+}
+
+.landing-page .overlap-group31 {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+.landing-page .find-book-and-rent-a31 {
+  color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: relative;
+  width: 575px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.landing-page .text-wrapper31 {
+  color: #000000;
+  letter-spacing: 0.51px;
+}
+
+.landing-page .span31 {
+  color: #ff0009;
+  letter-spacing: 0.51px;
+}
+
+.landing-page .vector31 {
+  height: 45px;
+  position: relative;
+  width: 157px;
+  top: -10px;
+  left: 220px;
+}
+
+.landing-page .div31 {
+  color: #ff0009;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  position: relative;
+  white-space: nowrap;
+  margin: 0;
+  text-align: left;
+  width: 500px;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.landing-page .div-wrapper31 {
+  background-color: #e32128;
+  border-radius: 30px;
+  height: 92px;
+  position: relative;
+  width: 241px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-page .div-wrapper31:hover {
+  background-color: #ff4d4d;
+  box-shadow: 0 0 15px rgba(255, 77, 77, 0.8);
+}
+
+.landing-page .overlap-231 {
+  width: 100%;
+  max-width: 930px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.landing-page .image-group31 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Space between images */
+  width: 100%;
+  max-width: 930px;
+  height: auto;
+}
+
+.landing-page .rectangle31,
+.landing-page .img31,
+.landing-page .rectangle-231 {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  object-fit: cover; /* Ensures the image fills the available space while maintaining aspect ratio */
+}
+
+
+@media (max-width: 1024px) {
+  .landing-page {
+    padding-top: 90px;
+  }
+
+  .landing-page .overlap-group31{
+    max-width: 480px;
+  }
+
+  .landing-page .overlap-wrapper31 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .landing-page .div-wrapper31 {
+    height: 60px;
+    width: 180px;
+    font-size: larger;
+  }
+
+  .landing-page .find-book-and-rent-a31 {
+    font-size: 53px; /* Further reduce font size for even smaller screens */
+    width: 475px; /* Further reduce width */
+    padding-bottom: 20px;
+  }
+
+  .landing-page .vector31 {
+    height: 30px; /* Further reduce height */
+    width: 120px; /* Further reduce width */
+    top: -15px; /* Adjust positioning */
+    left: 190px; /* Adjust positioning */
+  }
+
+  .landing-page .rectangle31,
+  .landing-page .img31,
+  .landing-page .rectangle-231 {
+    max-height: 300px;
+    max-width: 300px; /* Set a max width to avoid excessive enlargement */
+  }
+}

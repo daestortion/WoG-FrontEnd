@@ -1,0 +1,770 @@
+.car-management-owner {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  height: 100vh; /* Limit the height to the viewport height */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.car-management-owner .overlap-wrapper {
+  background-color: #ffffff;
+  height: 100%; /* Adjust to 100% of parent's height */
+  height: 939px;
+  width: 1920px;
+}
+
+.car-management-owner .overlap {
+  background-image: url(../Images/homebackground.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 939px;
+  position: relative;
+}
+
+.car-management-owner .overlap-group {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 112px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.car-management-owner .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 1327px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.text-wrapper:hover{
+  color: #e80029;
+}
+
+.car-management-owner .div {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 1465px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+.car-management-owner .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 1589px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.text-wrapper-2:hover{
+  color: #e80029;
+}
+
+.car-management-owner .sideview {
+  height: 75px;
+  left: 71px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 291px;
+}
+
+.car-management-owner .group {
+  height: 50px;
+  left: 1760px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+  border: none;
+  background: none;
+}
+
+.car-management-owner .overlap-2 {
+  background-color: #d7d1d1;
+  border-radius: 40px;
+  height: 711px;
+  left: 900px;
+  position: absolute;
+  top: 160px;
+  width: 907px;
+  padding-left: 15px;
+}
+
+.car-management-owner .overlap-1 {
+  background-color: #d7d1d1;
+  border-radius: 40px;
+  height: 711px;
+  left: 900px;
+  position: absolute;
+  top: 160px;
+  width: 907px;
+  padding-left: 15px;
+}
+
+.car-management-owner .overlap-group-wrapper {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 58px;
+  width: 714px;
+}
+
+.car-management-owner .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 260px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: -45px;
+  top: 80px;
+}
+
+.car-management-owner .div-wrapper1 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 260px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: -45px;
+  top: 83px;
+}
+
+
+.car-management-owner .div-wrapper2 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 200px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: -45px;
+  top: 85px;
+}
+
+.car-management-owner .description-wrapper {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 217px;
+  position: relative;
+  width: 460px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  left: 320px;
+  top: 138px;
+}
+
+.car-management-owner .description-textarea::placeholder {
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  top: 1000px;
+  left: 10px;
+  padding-top: 10px;
+}
+
+
+.car-management-owner .div-wrapper3 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 690px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 10px;
+  text-overflow: ellipsis;
+  top: -190px;
+}
+
+.car-management-owner .div-wrapper31 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 690px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 10px;
+  text-overflow: ellipsis;
+  top: -95px;
+}
+
+.car-management-owner .div-wrapper32 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 690px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 10px;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .div-wrapper4 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 630px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  top: 100px;
+  left: 10px;
+}
+
+.car-management-owner .div-wrapper41 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 630px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 10px;
+  text-overflow: ellipsis;
+  top: 5px;
+}
+
+.car-management-owner .div-wrapper42 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 200px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 315px;
+  top: 155px;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .div-wrapper412 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 200px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: -410px;
+  top: -160px;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .div-wrapper43 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 240px;
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  left: 332px;
+  top: 155px;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .text-wrapper-3 {
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 641px;
+}
+
+.car-management-owner .group-22 {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 146px;
+  width: 0px;
+}
+
+.car-management-owner .group-3 {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 233px;
+  width: 0px;
+}
+
+.car-management-owner .group-4 {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 320px;
+  width: 0px;
+
+}
+
+.car-management-owner .overlap-3 {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 407px;
+  width: 351px;
+}
+
+.car-management-owner .group-5 {
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 0px;
+}
+
+.car-management-owner .overlap-4 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 380px;
+  left: -45px;
+}
+
+.car-management-owner .overlap-442 {
+  background-color: #ffffff;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 380px;
+  left: 6px;
+}
+
+.car-management-owner .text-wrapper-44 {
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .group-6 {
+  height: 50px;
+  left: 170px;
+  position: absolute;
+  top: 11px;
+  width: 165px;
+}
+
+.car-management-owner .overlap-5 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 50px;
+  position: relative;
+  width: 110px;
+  left: 44px;
+  border: none;
+  top: 90px;
+}
+
+.car-management-owner .overlap-521 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 50px;
+  position: relative;
+  width: 110px;
+  left: 96px;
+  border: none;
+  top: 90px;
+}
+
+.car-management-owner .text-wrapper-555 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.car-management-owner .overlap-6 {
+  height: 71px;
+  left: 463px;
+  position: absolute;
+  top: 407px;
+  width: 351px;
+}
+
+.car-management-owner .text-wrapper-66 {
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.car-management-owner .group-7 {
+  height: 71px;
+  left: 98px;
+  position: absolute;
+  top: 408px;
+  width: 0px;
+}
+
+.car-management-owner .text-wrapper-7 {
+  color: #848484;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+  width: 641px;
+}
+
+.car-management-owner .group-8 {
+  height: 71px;
+  left: 99px;
+  position: absolute;
+  top: 600px;
+  width: 714px;
+}
+
+.car-management-owner .overlap-7 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 470px;
+  border: none;
+  left: 230px;
+}
+
+.car-management-owner .overlap-712 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 71px;
+  position: absolute;
+  width: 200px;
+  border: none;
+  left: 10px;
+}
+
+.car-management-owner .overlap-777 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 712px;
+  border: none;
+  top: 280px;
+  left: 80px;
+}
+
+.car-management-owner .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 258px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 200px;
+}
+
+.car-management-owner .text-wrapper-8123 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 258px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 470px;
+  left: 0px;
+}
+
+.car-management-owner .text-wrapper-81 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  top: 23px;
+  left: 0px;
+}
+
+.car-management-owner .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  left: 207px;
+  letter-spacing: 0.62px;
+  line-height: normal;
+  position: absolute;
+  top: 162px;
+  width: 575px;
+}
+
+.car-management-owner .text-wrapper-912 {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+  left: 60px;
+  letter-spacing: 0.62px;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+  width: 700px;
+}
+
+.car-management-owner .rectangle {
+  background-color: #d7d1d1;
+  border-radius: 40px;
+  height: 450px;
+  left: 196px;
+  position: absolute;
+  top: 274px;
+  width: 450px;
+}
+
+.car-management-owner .rectangle12 {
+  border-radius: 40px;
+  height: 450px;
+  left: 196px;
+  position: absolute;
+  top: 274px;
+  width: 450px;
+}
+
+.car-management-owner .group-9 {
+  height: 71px;
+  left: 196px;
+  position: absolute;
+  top: 750px;
+  width: 450px;
+}
+
+.car-management-owner .overlap-group-2 {
+  background-color: #e80029;
+  border-radius: 35px;
+  height: 71px;
+  position: relative;
+  width: 448px;
+  border: none;
+}
+
+.car-management-owner .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 140px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 180px;
+}
+
+.view-pricelist-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #e80029;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.view-pricelist-link:hover {
+  text-decoration: underline;
+}
+
+.pricelist-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pricelist-image {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
